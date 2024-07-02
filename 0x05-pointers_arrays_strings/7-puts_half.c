@@ -16,7 +16,7 @@ for (i = 0; str[i] != '\0'; i++)
 {
 	count++;
 }
-	n = (count + 1) / 2;
+	n = (count - 1) / 2;
 
 for (i = n + 1; str[i] != '\0'; i++)
 {
